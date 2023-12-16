@@ -16,6 +16,10 @@ public class CustomArrayList<E> {
         size = 0;
     }
 
+    public int size() {
+        return size;
+    }
+
     /**
      * Метод add(int index, E element): Добавляет элемент element в список по указанному индексу index.
      * Если индекс выходит за пределы текущего размера списка, выбрасывается исключение IndexOutOfBoundsException.
